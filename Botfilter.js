@@ -15,6 +15,7 @@ function createFilterSelect() {
   const blogComments = document.querySelectorAll('.blog-comments__item');
   const filterSelect = document.createElement('select');
   filterSelect.id = 'filter-select';
+  filterSelect.style='padding:7px';
 
   // Create the first option (all)
   const allOption = document.createElement('option');
